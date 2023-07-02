@@ -1,0 +1,71 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(7, 54, 54);
+}
+
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.mainText {
+  margin: 0 0 20px 0;
+  width: 25%;
+  border: 1px solid #117456;
+  box-shadow: 2px 2px 5px 3px #117456;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px 25px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.incrementButton {
+  border-radius: 10px;
+  width: 100px;
+  padding: 15px 20px;
+  background-color: rgb(187, 30, 117);
+  box-shadow: 2px 2px 2px 1px rgba(221, 4, 138, 0.445);
+  cursor: pointer;
+}
+
+.dicrementButton {
+  border-radius: 10px;
+  width: 70px;
+  margin: 0 7px 0 7px;
+  padding: 10px 10px;
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.resetButton {
+  border-radius: 10px;
+  width: 70px;
+  margin: 0 10px 0 0;
+  padding: 10px 10px;
+  background-color: rgb(255, 4, 4);
+}
+
+.emoji {
+  font-size: 25px;
+  color: rgb(74, 38, 107);
+}
+
+.showResult {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(187, 30, 117);
+  border-radius: 15px;
+  margin: 20px 40px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
