@@ -37,16 +37,19 @@ function EmojiVoting() {
   const showResults = () => {
     let maxCount = 0;
     let winningEmoji = '';
-
+  
     for (const emoji in counts) {
       if (counts[emoji] > maxCount) {
         maxCount = counts[emoji];
         winningEmoji = emoji;
       }
     }
-
-    alert('Winner: ' + winningEmoji);
-    console.log(`Winner: ${winningEmoji}`);
+  
+    if (maxCount <= 0) {
+      alert('Нет победителя. Нет положительных результатов');
+    } else {
+      alert('Winner: ' + winningEmoji);
+    }
   };
 
   return (
